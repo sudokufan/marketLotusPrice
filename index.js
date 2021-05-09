@@ -5,7 +5,7 @@ function fetchLotusPrice() {
             return data
         }) .then(function(data) {
             document.querySelector('.lotusCardScan').src = data.image_uris.border_crop
-            document.querySelector('.lotusPrice').textContent = data.prices.usd
+            document.querySelector('.lotusPrice').textContent += data.prices.usd
         })
 }
 

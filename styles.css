@@ -1,8 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: Trattatello, Helvetica, serif;
 }
 
 main {
     margin: 0 auto;
     text-align: center;
+}
+
+.lotusPrice {
+    font-size: 4rem;
 }
