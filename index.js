@@ -5,6 +5,8 @@ function fetchData() {
             return data
         }) .then(function(data) {
             console.log(data)
+            console.log(data.image_URIs)
+            console.log(data.prices)
         })
 }
 
