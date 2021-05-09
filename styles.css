@@ -3,9 +3,16 @@
     font-family: Trattatello, Helvetica, serif;
 }
 
+html {
+    background-image: linear-gradient(#c7faf2, #62dfff);
+    height: 100%;
+}
+
 main {
     margin: 0 auto;
+    padding-top: 5%;
     text-align: center;
+    position: relative;
 }
 
 .lotusPrice {
