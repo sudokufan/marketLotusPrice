@@ -4,8 +4,8 @@ function fetchData() {
             data = data.json()
             return data
         }) .then(function(data) {
-            console.log(data.image_uris.normal)
-            console.log(data.prices.usd)
+            document.querySelector('.lotusCardScan').src = data.image_uris.normal
+            document.querySelector('.lotusPrice').textContent = data.prices.usd
         })
 }
 
